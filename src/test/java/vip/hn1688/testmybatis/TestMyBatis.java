@@ -34,5 +34,6 @@ public class TestMyBatis {
         // System.out.println(user.getUserName());
         // logger.info("Öµ£º"+user.getUserName());
         logger.info(JSON.toJSONString(user));
+        System.out.println(JSON.toJSONString(user));
     }
 }
